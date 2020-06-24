@@ -19,14 +19,11 @@ public static void main(String[] args)
 Payroll ac[]=new Payroll[5];
  //add code to take input from user, If salary is less than or equal to 3000,calculate a new salary with bonus 10% of salary
  //and store in array then print 5 employee details
-  
-Scanner sc=new Scanner(System.in);
-System.out.println("Please enter the employee name:");
- 
-System.out.println("Please enter the salary: salary <=3000");
-     
-System.out.println("The final Salary including bonus is: ");         
 
-}
+Payroll employee1 = new Payroll (3000,"John");
+Payroll employee2 = new Payroll (2500,"Clarke");
+Payroll employee3 = new Payroll (6000,"Murphy");
+Payroll employee4 = new Payroll (5000,"Bellamy");
+Payroll employee5 = new Payroll (3000,"Octavia");
 
 }
