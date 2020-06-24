@@ -26,4 +26,9 @@ Payroll employee3 = new Payroll (6000,"Murphy");
 Payroll employee4 = new Payroll (5000,"Bellamy");
 Payroll employee5 = new Payroll (3000,"Octavia");
 
+for (int i=0; i<ac.length; i++) 
+{
+    
+}
+}
 }
